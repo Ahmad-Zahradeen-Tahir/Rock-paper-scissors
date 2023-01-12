@@ -4,10 +4,6 @@ import classes from './Background.module.css'
 import music from './backgroundMusic.mp3'
 
 const Background = (props) => {
-  const sound = () => {
-    new Audio(music).play()
-  }
-  sound()
   return (
     <>
       <video autoPlay loop muted className={classes.wallpaper}>
