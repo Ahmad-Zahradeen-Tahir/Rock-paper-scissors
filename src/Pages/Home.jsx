@@ -8,7 +8,7 @@ const Home = () => {
     <div className={classes.Home}>
       <h1>
         <Bounce top cascade>
-          Rock-Paper-Scissors
+        {'Rock Paper Scissors'}
         </Bounce>
       </h1>
       <NavLink to="/game">

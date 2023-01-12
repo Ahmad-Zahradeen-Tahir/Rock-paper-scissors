@@ -48,3 +48,15 @@ h3{
 .message span p{
     width: 80%;
 }
+
+/*====================== MEDIA QUERIES (PHONES) =====================*/
+@media screen and ( max-width: 600px ) {
+    .message span{
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    .message{
+        width: 70%;
+    }
+}

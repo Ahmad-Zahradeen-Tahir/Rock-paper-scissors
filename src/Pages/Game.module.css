@@ -69,3 +69,23 @@
     border-color: purple;
     color: purple;
 }
+
+/*====================== MEDIA QUERIES (PHONES) =====================*/
+@media screen and ( max-width: 600px ) {
+    h2{
+        font-size: 3.0em;
+    }
+
+    .bottom button{
+        width: 50%;
+        margin: .5em auto .5em;
+    }
+
+    .mid{
+        height: 20em;
+    }
+
+    .top{
+        width: 85%;
+    }
+}
