@@ -5,9 +5,7 @@ import classes from './Background.module.css'
 const Background = (props) => {
   return (
     <>
-      <video autoPlay loop muted className={classes.wallpaper}>
-        <source src={background} type="video/mp4" />
-      </video>
+      <img src={background} className={classes.wallpaper}>
       {props.children}
     </>
   );
