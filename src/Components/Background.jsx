@@ -5,7 +5,7 @@ import classes from './Background.module.css'
 const Background = (props) => {
   return (
     <>
-      <img src={background} className={classes.wallpaper}>
+      <img src={background} className={classes.wallpaper}/>
       {props.children}
     </>
   );
