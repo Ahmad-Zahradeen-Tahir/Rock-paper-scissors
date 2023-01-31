@@ -1,7 +1,6 @@
 import React from "react";
-import background from ".././images/Sunset - 65182.mp4";
+import background from ".././images/pexels-pixabay-36717.jpg";
 import classes from './Background.module.css'
-import music from './backgroundMusic.mp3'
 
 const Background = (props) => {
   return (
